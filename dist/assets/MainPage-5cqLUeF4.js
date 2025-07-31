@@ -1,0 +1,1 @@
+import{j as e,h as s,e as t}from"./index-CBtxA5zd.js";import{u as n,a as r}from"./useNamespaceLoader-ugtVjOaQ.js";function m(){n("main",{en:t,he:s});const{t:a}=r("main");return e.jsx("h1",{className:"bg-red-500",children:a("title")})}export{m as default};
