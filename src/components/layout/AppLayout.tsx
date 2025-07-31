@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import { useState } from 'react';
-import Sidebar from '../Sidebar';
-import { FiMenu } from 'react-icons/fi';
+import { Outlet } from "react-router-dom";
+import { useState } from "react";
+import Sidebar from "../Sidebar";
+import { FiMenu } from "react-icons/fi";
 
 export default function AppLayout() {
   const [open, setOpen] = useState(false);
