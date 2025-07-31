@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiHome, FiUser, FiSettings } from "react-icons/fi";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 interface SidebarProps {
   isOpen: boolean;
@@ -22,15 +23,13 @@ export default function Sidebar({ isOpen, toggle }: SidebarProps) {
         <FiMenu className="w-6 h-6" />
       </button>
       <nav className="mt-10 flex flex-col gap-2">
-        <NavLink to="/dashboard" className={linkClass} onClick={toggle}>
-          <FiHome className="mr-3" /> Dashboard
-        </NavLink>
-        <NavLink to="/profile" className={linkClass} onClick={toggle}>
-          <FiUser className="mr-3" /> Profile
+        <NavLink to="/" className={linkClass} onClick={toggle}>
+          <FiHome className="mr-3" /> Home
         </NavLink>
         <NavLink to="/settings" className={linkClass} onClick={toggle}>
           <FiSettings className="mr-3" /> Settings
         </NavLink>
+        <LanguageSwitcher />
       </nav>
     </aside>
   );

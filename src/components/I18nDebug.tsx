@@ -6,7 +6,7 @@ export default function I18nDebug() {
   const { i18n: i18nInstance } = useTranslation();
   const [resources, setResources] = useState<any>({});
   // Set to true by default to make it visible initially
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     const updateResources = () => {

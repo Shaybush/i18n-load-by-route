@@ -1,0 +1,1 @@
+import{a as t,b as e,j as a}from"./index-CBtxA5zd.js";import{u as n,a as r}from"./useNamespaceLoader-ugtVjOaQ.js";function u(){n("settings",{en:e,he:t});const{t:s}=r("settings");return a.jsx("h1",{children:s("title")})}export{u as default};

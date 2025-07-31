@@ -19,5 +19,9 @@ export default function LanguageSwitcher() {
     setLang(next);
   };
 
-  return <button onClick={toggle}>{lang === "en" ? "HE" : "EN"}</button>;
+  return (
+    <button className="p-2 bg-gray-700 text-white rounded-md" onClick={toggle}>
+      {lang === "en" ? "HE" : "EN"}
+    </button>
+  );
 }
